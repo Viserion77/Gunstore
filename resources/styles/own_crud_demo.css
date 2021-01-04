@@ -1,0 +1,138 @@
+#sectionhtml5{
+width: 1150;
+min-height: 1px;
+padding: 10px;
+}
+
+.table{
+width: 1144px;
+min-height: 10px;
+background-color:rgba(255,255,255,0.50);
+padding: 2.5;
+margin-top:5px;
+}
+
+.table2{
+width: 1130px;
+min-height: 10px;
+background-color:rgba(255,255,255,0.50);
+padding: 2.5;
+margin-top:5px;
+}
+
+.tablename{
+width: 671px;
+min-height: 10px;
+font-family: impact;
+font-size: 20px;
+float: left;
+margin: 2.5px;
+}
+
+.tableview{
+background-color:rgba(0,255,0,0.5);
+width: 151px;
+min-height: 10px;
+font-family: impact;
+font-size: 20px;
+text-align: center;
+float: right;
+margin:2.5px;
+text-decoration:none;
+border:0px;
+}
+
+.save{
+background-color:rgba(0,255,0,0.50);
+width: 151px;
+min-height: 10px;
+font-family: impact;
+font-size: 20px;
+text-align: center;
+margin:2.5px;
+text-decoration:none;	
+}
+
+.delet{
+background-color:rgba(255,0,0,0.50);
+width: 151px;
+min-height: 10px;
+font-family: impact;
+font-size: 20px;
+text-align: center;
+margin:2.5px;
+text-decoration:none;	
+}
+
+.tableedit{
+background-color:rgba(255,255,0,0.50);
+width: 151px;
+min-height: 10px;
+font-family: impact;
+font-size: 20px;
+color:000;
+text-align: center;
+float: right;
+margin:2.5px;
+text-decoration:none;
+}
+
+.tableclose{
+background-color:rgba(255,0,0,0.50);
+width: 151px;
+min-height: 10px;
+font-family: impact;
+font-size: 20px;
+text-align: center;
+float: right;
+color:000;
+margin:2.5px;
+text-decoration:none;
+}
+
+.tabledell{
+background-color:rgba(255,0,0,0.50);
+width: 151px;
+min-height: 10px;
+font-family: impact;
+font-size: 20px;
+text-align: center;
+margin:2.5px;
+text-decoration:none;
+}
+
+.tamtable{
+width: 1142px;
+}
+
+.tamtable2{
+margin-left:auto;}
+
+.tamtable2 th{
+	text-align: left;
+}
+
+.tamtable th{
+text-align: left;
+}
+
+#rodape{
+width: 100%;
+min-height: 100px;
+background-color: gold;
+text-align:center;
+padding-top:0.5px;
+}
+
+.javabuto{
+float: left;
+width: 468px;	
+}
+
+.imparoupar:nth-child(odd){
+	background-color:rgba(255, 255, 255, 0.5);
+}
+
+.diminuiroinput input,SELECT{
+    width: 150px;	
+}

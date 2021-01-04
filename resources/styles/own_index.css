@@ -1,0 +1,114 @@
+body{
+margin:0px;	
+}
+
+#quadrologin{
+width: 250px;
+height: 100px;
+background-color:rgba(255,255,0,0.5);
+margin-left: auto;
+margin-right: auto;
+padding: 25px;
+text-align: right;
+color: black;
+font-size: 17px;
+}
+
+#quadrologindois{
+    width: 275px;
+    min-height: 100px;
+    background-color: rgba(255,255,0,0.5);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    color: black;
+    font-size: 17px;
+}
+
+#quadrologin input{
+margin:5px;
+}
+
+#ajustqua{
+width: 300px;
+min-height: 100px;
+padding: 45px;
+}
+
+.inputr{
+text-align: right;
+}
+
+#enviar{
+border: 10px solid;
+border-color:  gold transparent transparent  gold;
+background-color: transparent;
+color: black;
+font-size: 15px;
+font-family: calibri;
+transition:0.5s;
+}
+
+#enviar2{
+border: 10px solid;
+border-color: black transparent transparent black;
+background-color: transparent;
+color: black;
+font-size: 15px;
+font-family: calibri;
+transition:0.5s;
+}
+
+#enviar:hover{
+background-color: white;
+}
+
+#enviar2:hover{
+background-color: white;
+}
+
+#nomecadrastro{
+text-align: center;
+font-size: 32PX;
+font-family: calibri;
+margin-top: -10px;
+color: black;
+}
+
+#quadrocadastro{
+width: 621px;
+min-height: 200px;
+background-color:  gold;
+margin-top: -1px;
+margin-left: auto;
+margin-right: auto;
+border: 25px solid;
+border-color:  gold black;
+text-align: center;
+font-family: calibri;
+font-size: 18px;
+color: black;
+}
+
+#quadrocadastro input{
+margin: 5px;
+text-align: right;
+}
+
+.bmwlegal{
+width: 128px;
+text-align: right;
+float: left;
+}
+
+.legalbmw{
+width: 128px;
+float: left;
+}
+
+#coisa{
+width: 301px;
+min-height: 10px;
+margin-left: auto;
+margin-right: auto;
+}

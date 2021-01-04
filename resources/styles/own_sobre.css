@@ -1,0 +1,99 @@
+#conteudosobre{
+width: 645px;
+min-height: 160px;
+background-color: rgba(255,215,0,0.50);
+padding: 2.5px;
+margin: 5px;
+}
+
+#divmapa{
+width: 200px;
+height: 200px;
+margin-bottom: 10px;
+}
+
+#divendereco{
+text-align:center;
+}
+
+#botipo3{
+text-align: left;
+background-color: rgba(225, 0, 0, 0.7);
+transition: 1.5s;
+text-decoration: none;
+padding: 10px;
+margin: 10px;
+}
+
+#diccontato{
+text-align:center;
+}
+
+#diccontato small{
+color:white;
+}
+
+#diccontato h3{
+color:white;
+text-align:left;
+}
+
+#diccontato a{
+text-decoration:none;
+}
+
+#diccontato b{
+color:black;
+}
+
+#conteudosobre h1{
+color: black;
+text-align: center;
+font-family: sans-serif;
+}
+
+#conteudosobre p{
+color: black;
+font-family: calibri;
+padding:5px;
+margin:2.5px;
+}
+
+.divfotindaloja{
+width:200px;
+height:200px;
+}
+
+.floatr{
+float:right;
+}
+
+.floatl{
+float:left;
+margin-right:10px;}
+
+#maeteudo{
+width:100%;
+min-height:10px;
+}
+
+#filhoteudo{
+width:100%;
+min-height:10px;
+}
+
+.faqa1{
+    padding: 10px	
+}
+	
+.faqpergunta{
+    color: black;
+    font-size: 20px;
+    font-family: calibri;	
+}
+
+.faqresposta{
+    color: black;
+    font-size: 20px;
+    font-family: calibri;	
+}
