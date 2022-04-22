@@ -1,5 +1,5 @@
 <?php
-include("conectar.php");
+include("../conectar.php");
 if(isset($_GET['id'])){
 $query = "select * from usuario where id=".$_GET['id'];
 

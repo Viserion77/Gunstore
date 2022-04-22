@@ -1,5 +1,5 @@
 <?php
-include("conectar.php");
+include("../conectar.php");
 $query = "select * from produto";
 $resultQuery = mysql_query($query);
 $queryd = "select * from descricao";
