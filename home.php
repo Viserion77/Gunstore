@@ -31,31 +31,16 @@
 			<div class=nav>
 				<div class=navbonitin></div>
 				<div class=botoesleft>
-					<a href="airsoft.php">
-						<div class=botipo2>
-							AIRSOFT
-						</div>
-					</a>
-					<a href="arma_de_fogo.php">
-						<div class=botipo2>
-							ARMA DE FOGO
-						</div>
-					</a>
-					<a href="arma_de_pressao.php">
-						<div class=botipo2>
-							ARMA DE PRESSÃO
-						</div>
-					</a>
-					<a href="material_tatico.php">
-						<div class=botipo2>
-							MATERIAL TATICO
-						</div>
-					</a>
-					<a href="sobre.php">
-						<div class=botipo2>
-							SOBRE
-						</div>
-					</a>
+					<?php
+						$items = array("AIRSOFT", "ARMA DE FOGO", "ARMA DE PRESSÃO", "MATERIAL TATICO", "SOBRE");
+						foreach ($items as $item) {
+							echo "<a href='$item.php'>
+									<div class=botipo2>
+										$item
+									</div>
+								</a>";
+						}
+					?>
 				</div>
 				<div class=navbonitin2></div>
 			</div>
@@ -168,110 +153,61 @@
 								AIRSOFT
 							</H3>
 						</a>
-							<ul>
-								<a href="airsoft.php?#Espingarda111">
-									<li>
-										Espingarda
-									</li>
-								</a>
-								<a href="airsoft.php?#Metralhadora111">
-									<li>
-										Metralhadora
-									</li>
-								</a>
-								<a href="airsoft.php?#Pistola111">
-									<li>
-										Pistola
-									</li>
-								</a>
-								<a href="airsoft.php?#Rifle111">
-									<li>
-										Rifle
-									</li>
-								</a>
-								<a href="airsoft.php?#LANCAGRANADA111">
-									<li>
-										Lança Granada
-									</li>
-								</a>
-								<a href="airsoft.php?#revolver111">
-									<li>
-										Revolver
-									</li>
-								</a>
-							</ul>
+						<?php
+							$items = array("Espingarda", "Metralhadora", "Pistola", "Rifle", "Lança Granada", "Revolver");
+							foreach ($items as $item) {
+								echo "<a href='airsoft.php?#$item'>
+										<li>
+											$item
+										</li>
+									</a>";
+							}
+						?>
 					</div>
 					<div class=botipo2>
 						<h3>
 							ARMA DE FOGO
 						</h3>
-						<ul>
-							<li>
-								Espingarda
-							</li>
-							<li>
-								Metralhadora
-							</li>
-							<li>
-								Pistola
-							</li>
-							<li>
-								Rifle
-							</li>
-							<li>
-								Lança Granada
-							</li>
-							<li>
-								Revolver
-							</li>
-						</ul>
+						<?php
+							$items = array("Espingarda", "Metralhadora", "Pistola", "Rifle", "Lança Granada", "Revolver");
+							foreach ($items as $item) {
+								echo "<a href='arma_de_fogo.php?#$item'>
+										<li>
+											$item
+										</li>
+									</a>";
+							}
+						?>
 					</div>
 					<div class=botipo2>
 						<h3>
 							ARMA DE PRESSÃO
 						</h3>
-						<ul>
-							<li>
-								Carabinas
-							</li>
-							<li>
-								Gas Ram
-							</li>
-							<li>
-								Mola
-							</li>
-							<li>
-								Multipmp
-							</li>
-							<li>
-								PCP
-							</li>
-							<li>
-								Pistola
-							</li>
-						</ul>
+						<?php
+							$items = array("Carabinas", "Gas Ram", "Mola", "Multipmp", "PCP", "Pistola");
+							foreach ($items as $item) {
+								echo "<a href='arma_de_pressao.php?#$item'>
+										<li>
+											$item
+										</li>
+									</a>";
+							}
+						?>
 					</div>
 					<div class=botipo2>
 						<h3>
 							MATERIAL TATICO
 						</h3>
-						<ul>
-							<li>
-								Balacravas
-							</li>
-							<li>
-								Bolsas Mochilas
-							</li>
-							<li>
-								Chaveiros
-							</li>
-							<li>
-								Cinto
-							</li>
-							<li>
-								Coletes Capas
-							</li>
-						</ul>
+						<?php
+							$items = array("Balacravas", "Bolsas Mochilas", "Chaveiros", "Cinto", "Coletes Capas");
+							foreach ($items as $item) {
+								echo "<a href='material_tatico.php?#$item'>
+										<li>
+											$item
+										</li>
+									</a>";
+							}
+						?>
 					</div>
 					<div class=botipo2>
 						<h3>

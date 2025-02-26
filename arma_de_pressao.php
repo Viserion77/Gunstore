@@ -15,36 +15,16 @@
 			<div class=nav>
 				<div class=navbonitin></div>
 				<div class=botoesleft>
-					<a href= >
-						<div class=botipo2>
-							Carabinas	
-						</div>
-					</a>
-					<a href= >
-						<div class=botipo2>
-							Gas Ram
-							</div>
-					</a>
-					<a href= >
-						<div class=botipo2>
-							Mola
-						</div>
-					</a>
-					<a href= >
-						<div class=botipo2>
-							Multipmp
-						</div>
-					</a>
-					<a href= >
-						<div class=botipo2>
-							PCP
-						</div>
-					</a>
-					<a href= >
-						<div class=botipo2>
-							Pistola
-						</div>
-					</a>
+					<?php
+						$items = array("Carabinas", "Gas Ram", "Mola", "Multipmp", "PCP", "Pistola");
+						foreach ($items as $item) {
+							echo "<a href='#$item' >
+									<div class=botipo2>
+										$item
+									</div>
+								</a>";
+						}
+					?>
 				</div>
 				<div class=navbonitin2></div>
 			</div>

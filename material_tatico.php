@@ -15,31 +15,16 @@
 			<div class=nav>
 				<div class=navbonitin></div>
 				<div class=botoesleft>
-					<a href= >
-						<div class=botipo2>
-							Balacravas
-						</div>
-					</a>
-					<a href= >
-						<div class=botipo2>
-							Bolsas Mochilas
-						</div>
-					</a>
-					<a href= >
-						<div class=botipo2>
-							Chaveiros
-						</div>
-					</a>
-					<a href= >
-						<div class=botipo2>
-							Cinto
-						</div>
-					</a>
-					<a href= >
-						<div class=botipo2>
-							Coletes Capas
-						</div>
-					</a>
+					<?php
+						$items = array("Balacravas", "Bolsas Mochilas", "Chaveiros", "Cinto", "Coletes Capas");
+						foreach ($items as $item) {
+							echo "<a href='#$item' >
+									<div class=botipo2>
+										$item
+									</div>
+								</a>";
+						}
+					?>
 				</div>
 				<div class=navbonitin2></div>
 			</div>
@@ -70,7 +55,7 @@
 						MATERIAL TATICO
 					</h3>
 					<p>
-						bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
+						bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
 					</p>
 				</div>
 				<div class=asidebonitin2></div>				
